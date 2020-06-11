@@ -20,7 +20,7 @@ after_success:
 - codecov
 env:
   - TOXENV=py38-django22
-  - TOXENV=py36-django22
+  - TOXENV=py35-django22
   global:
   - DOCKER_USERNAME=edxbuilder
     # encrypted DOCKER_PASSWORD
